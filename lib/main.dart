@@ -2,7 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pencatatan_keuangan/pages/main_pages.dart';
+import 'package:pencatatan_keuangan2/pages/main_pages.dart';
 
 void main() {
   runApp(const MyApp());
