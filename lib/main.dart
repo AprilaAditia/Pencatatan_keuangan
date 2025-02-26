@@ -2,7 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pencatatan_keuangan2/pages/main_pages.dart';
+import 'package:pencatatan_keuangan2/pages/main_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Menghilangkan banner debug
+      debugShowCheckedModeBanner: false,
       home: MainPage(),
       theme: ThemeData(primarySwatch: Colors.green),
     );
