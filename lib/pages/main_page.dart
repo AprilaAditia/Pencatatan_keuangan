@@ -26,7 +26,10 @@ class _MainPageState extends State<MainPage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: const Color.fromRGBO(214, 21, 96, 1),
-        child: Icon(Icons.add),
+        child: Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
       ),
       body: HomePage(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
@@ -36,14 +39,20 @@ class _MainPageState extends State<MainPage> {
           children: [
             IconButton(
               onPressed: () {},
-              icon: Icon(Icons.home),
+              icon: Icon(
+                Icons.home,
+                color: Colors.black,
+              ),
             ),
             SizedBox(
               width: 20,
             ),
             IconButton(
               onPressed: () {},
-              icon: Icon(Icons.list),
+              icon: Icon(
+                Icons.list,
+                color: Colors.black,
+              ),
             ),
           ],
         ),

@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
               child: Text(
                 "Transaction",
                 style: GoogleFonts.montserrat(
-                  fontSize: 18,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -125,9 +125,15 @@ class _HomePageState extends State<HomePage> {
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.delete),
+                      Icon(
+                        Icons.delete,
+                        color: Colors.black,
+                      ),
                       SizedBox(width: 10),
-                      Icon(Icons.edit),
+                      Icon(
+                        Icons.edit,
+                        color: Colors.black,
+                      ),
                     ],
                   ),
                   title: Text("Rp. 20.000"),
@@ -153,9 +159,15 @@ class _HomePageState extends State<HomePage> {
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.delete),
+                      Icon(
+                        Icons.delete,
+                        color: Colors.black,
+                      ),
                       SizedBox(width: 10),
-                      Icon(Icons.edit),
+                      Icon(
+                        Icons.edit,
+                        color: Colors.black,
+                      ),
                     ],
                   ),
                   title: Text("Rp. 200.000"),
