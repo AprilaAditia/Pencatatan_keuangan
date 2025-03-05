@@ -171,7 +171,7 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                   title: Text("Rp. 200.000"),
-                  subtitle: Text("Uang Sangu"),
+                  subtitle: Text("Uang Bulanan"),
                   leading: Container(
                     child: Icon(
                       Icons.download,
